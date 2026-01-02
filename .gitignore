@@ -1,0 +1,16 @@
+# The most important one: Secrets
+.env
+
+# Python internal files (created automatically)
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints (created automatically)
+.ipynb_checkpoints/
+
+# Virtual environments (if you create one later)
+venv/
+.venv/
+
+# Large data files
+data/
