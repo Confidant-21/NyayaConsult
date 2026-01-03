@@ -1,16 +1,24 @@
-# The most important one: Secrets
+# --- Secrets & Config ---
+# Matches .env anywhere, specifically inside the backend
 .env
+backend/.env
 
-# Python internal files (created automatically)
+# --- Python & OS ---
 __pycache__/
 *.py[cod]
+.DS_Store
 
-# Jupyter Notebook checkpoints (created automatically)
-.ipynb_checkpoints/
-
-# Virtual environments (if you create one later)
+# --- Environments ---
 venv/
 .venv/
 
-# Large data files
+# --- Database (Your Specific Path) ---
+# Ignores all .db files in the project
+*.db
+# Explicitly ignores your backend database folder content
+backend/src/database/*.db
+
+# --- Large Data & Tools ---
 data/
+mlruns/
+.zen/
