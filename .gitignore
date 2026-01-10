@@ -22,3 +22,6 @@ backend/src/database/*.db
 data/
 mlruns/
 .zen/
+
+# --- test files ---
+backend/test.py
